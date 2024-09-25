@@ -1,6 +1,6 @@
 - visualization.py is the main file that works for new visualization.
 
-
+### Run this code to process for ennglish captions
 ```bash
   video_folder=visualization/videos
   output_folder=visualization/output
@@ -10,6 +10,12 @@
 ```
 
 - NotoSansDevanagari.ttf for nepali font
+- Nepali language display requires:
+  ```bash
+      pip install google_trans_new
+  ```
+
+### Run this code to process for neapli captions
 
 ```bash
   video_folder=visualization/videos
